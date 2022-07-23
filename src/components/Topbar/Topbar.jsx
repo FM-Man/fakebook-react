@@ -9,17 +9,17 @@ export default function Topbar() {
       </div>
       <div className="topbarCenter">
         <div className="searchbar">
-          <Search/>
+          <Search className="searchIcon"/>
           <input placeholder="Search for friends or posts" className="searchInput"/>
         </div>
       </div>
       <div className="topbarRight">
         <div className="topbarLinks">
-          <span className="topbarLinks">Homepage</span>
-          <span className="topbarLinks">Profile</span>
+          <span className="topbarLink">Homepage</span>
+          <span className="topbarLink">Profile</span>
         </div>
-        <img src="../../../public/assets/person/fm.jpg" alt="fm" className="topbarImg"/>
-        <img src="https://simg-ssl.duolingo.com/avatars/749106171/tVzgHRf0KF/medium" alt="2"/>
+        <img  src="https://github.com/FM-Man/fakebook-react/blob/master/public/assets/person/fm.jpg?raw=true" 
+              alt="fm" className="topbarImg"/>
       </div>
     </div>
   )
